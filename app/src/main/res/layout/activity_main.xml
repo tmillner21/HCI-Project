@@ -7,6 +7,10 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!-- Has to be of type androidx.constraintlayout.widget.ConstraintLayout,
+     when you create a new layout file, it needs to have type ConstraintLayout-->
+
+    <!-- The button is pretty self explanatory-->
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"

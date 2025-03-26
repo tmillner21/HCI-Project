@@ -12,6 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light"
         tools:targetApi="31">
+        <!-- When you create a new screen, you have to add it like <activity
+            android:name=".TripDecision"
+            android:exported="true" />-->
+
         <activity
             android:name=".TaskList"
             android:exported="true"/>
