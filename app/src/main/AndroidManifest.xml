@@ -26,6 +26,9 @@
             android:name=".TripDecision"
             android:exported="true" />
 
+        <activity
+            android:name=".ToDoList"
+            android:exported="true" />
         <!-- MainActivity is now the launcher activity -->
         <activity
             android:name=".MainActivity"
